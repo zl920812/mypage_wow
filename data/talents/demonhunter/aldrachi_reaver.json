@@ -1,0 +1,15 @@
+[
+  // 奥达奇
+  {
+      "id": 1,
+      "name": "天赋名称1",
+      "description": "天赋描述1",
+      "icon": "icon_1.jpg"
+  },
+  {
+      "id": 2,
+      "name": "天赋名称2",
+      "description": "天赋描述2",
+      "icon": "icon_2.jpg"
+  }
+]

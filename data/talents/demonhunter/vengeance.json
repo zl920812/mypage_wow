@@ -1,0 +1,14 @@
+[
+  {
+      "id": 1,
+      "name": "SpecTalent1",
+      "description": "Description of SpecTalent1",
+      "icon": "path/to/spec_icon1.png"
+  },
+  {
+      "id": 2,
+      "name": "SpecTalent2",
+      "description": "Description of SpecTalent2",
+      "icon": "path/to/spec_icon2.png"
+  }
+]

@@ -1,0 +1,129 @@
+body {
+    background-color: #0c0f12; /* 魔兽世界常见的背景色 */
+    font-family: "Friz Quadrata", Arial, sans-serif; /* 使用类似游戏中的字体 */
+    color: #ffffff; /* 文本颜色为白色 */
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 垂直居中 */
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.button {
+    width: 70px;
+    height: 70px;
+    border-radius: 45%;
+    background-size: cover;
+    background-position: center;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+}
+.specialization-button{
+    width: 70px;
+    height: 70px;
+    border-radius: 45%;
+    background-size: cover;
+    background-position: center;
+    align-items: center; /* 垂直居中 */
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+}
+.heroic-button{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    align-items: center; /* 垂直居中 */
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+.heroic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.class-text{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    font-family: "Friz Quadrata", Arial, sans-serif; /* 设置字体 */
+}
+.heroic-text {
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Friz Quadrata", Arial, sans-serif; /* 设置字体 */
+}
+.button:hover, .specialization-button:hover, .heroic-button:hover {
+    filter: brightness(0.7);
+}
+.talent {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.talent img {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+}
+.context-menu {
+    position: absolute;
+    background-color: #0c0f12;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.context-menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.context-menu-item:hover {
+    background-color: #0c0f12;
+}
+
+#classes-container, #specializations-container, #talents-container {
+    display: flex;
+    justify-content: center; /* 居中 */
+    gap: 10px;
+}
+.talent-divider {
+    height: 50px; /* 设置分割线的高度，可以根据需要调整 */
+}
+.talent-column {
+    /* width: 33.33%; */
+    display: inline-block;
+    vertical-align: top;
+    height: 500px; /* Adjust the height as needed */
+}
+
+.class-column {
+    width: 40%;
+    background-color: red;
+}
+
+.hero-column {
+    width: 20%;
+    background-color: green;
+}
+
+.spec-column {
+    width: 40%;
+    background-color: blue;
+}
+

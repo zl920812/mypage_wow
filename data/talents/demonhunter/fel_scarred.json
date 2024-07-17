@@ -1,0 +1,16 @@
+{
+    "name":"demonhunter-fel_scarred",
+    "talents": [
+      {
+        "id": 1,
+        "name": "Heroic Talent 1",
+        "description": "Description of heroic talent 1"
+      },
+      {
+        "id": 2,
+        "name": "Heroic Talent 2",
+        "description": "Description of heroic talent 2"
+      }
+    ]
+  }
+  

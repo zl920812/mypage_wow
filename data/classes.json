@@ -1,0 +1,419 @@
+[
+    {
+      "id": 1,
+      "name":"warrior",
+      "cn_name": "战士",
+      "spec": [
+        "arms",
+        "fury",
+        "protection"
+      ],
+      "cn_spec": [
+        "武器",
+        "狂怒",
+        "防护"
+      ],
+      "heroic": [
+        {
+          "name": "slayer",
+          "cn_name": "屠戮者",
+          "specs": ["arms", "fury"]
+        },
+        {
+          "name": "colossus",
+          "cn_name": "巨像",
+          "specs": ["arms", "protection"]
+        },
+        {
+          "name": "mountainthane",
+          "cn_name": "山丘领主",
+          "specs": ["fury", "protection"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name":"mage",
+      "cn_name": "法师",
+      "spec": [
+        "arcane",
+        "fire",
+        "frost"
+      ],
+      "cn_spec": [
+        "奥术",
+        "火焰",
+        "冰霜"
+      ],
+      "heroic": [
+        {
+          "name": "frostfire",
+          "cn_name": "霜火",
+          "specs": ["fire", "frost"]
+        },
+        {
+          "name": "sunfury",
+          "cn_name": "日怒",
+          "specs": ["fire", "arcane"]
+        },
+        {
+          "name": "spellslinger",
+          "cn_name": "射咒师",
+          "specs": ["frost", "arcane"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name":"priest",
+      "cn_name": "牧师",
+      "spec": [
+        "holy",
+        "discipline",
+        "shadow"
+      ],
+      "cn_spec": [
+        "神圣",
+        "戒律",
+        "暗影"
+      ],
+      "heroic": [
+        {
+          "name": "oracle",
+          "cn_name": "神谕者",
+          "specs": ["holy", "discipline"]
+        },
+        {
+          "name": "archon",
+          "cn_name": "执政官",
+          "specs": ["holy", "shadow"]
+        },
+        {
+          "name": "voidweaver",
+          "cn_name": "虚空编织者",
+          "specs": ["discipline", "shadow"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name":"warlock",
+      "cn_name": "术士",
+      "spec": [
+        "affliction",
+        "demonology",
+        "destruction"
+      ],
+      "cn_spec": [
+        "痛苦",
+        "恶魔学识",
+        "毁灭"
+      ],
+      "heroic": [
+        {
+          "name": "soulharvester",
+          "cn_name": "灵魂收割者",
+          "specs": ["affliction", "demonology"]
+        },
+        {
+          "name": "hellcaller",
+          "cn_name": "唤魔者",
+          "specs": ["affliction", "destruction"]
+        },
+        {
+          "name": "diabolist",
+          "cn_name": "信魔者",
+          "specs": ["demonology", "destruction"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name":"rogue",
+      "cn_name": "潜行者",
+      "spec": [
+        "assassination",
+        "outlaw",
+        "subtlety"
+      ],
+      "cn_spec": [
+        "奇袭",
+        "狂徒",
+        "敏锐"
+      ],
+      "heroic": [
+        {
+          "name": "fatebound",
+          "cn_name": "命缚者",
+          "specs": ["assassination", "outlaw"]
+        },
+        {
+          "name": "deathstalker",
+          "cn_name": "死亡猎手",
+          "specs": ["assassination", "subtlety"]
+        },
+        {
+          "name": "trickster",
+          "cn_name": "欺诈者",
+          "specs": ["outlaw", "subtlety"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name":"monk",
+      "cn_name": "武僧",
+      "spec": [
+        "brewmaster",
+        "mistweaver",
+        "windwalker"
+      ],
+      "cn_spec": [
+        "酒仙",
+        "织雾",
+        "踏风"
+      ],
+      "heroic": [
+        {
+          "name": "masterofharmony",
+          "cn_name": "祥和大师",
+          "specs": ["brewmaster", "mistweaver"]
+        },
+        {
+          "name": "shadopan",
+          "cn_name": "影踪派",
+          "specs": ["brewmaster", "windwalker"]
+        },
+        {
+          "name": "conduitofthecelestials",
+          "cn_name": "天神引导者",
+          "specs": ["mistweaver", "windwalker"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name":"druid",
+      "cn_name": "德鲁伊",
+      "spec": [
+        "balance",
+        "feral",
+        "guardian",
+        "restoration"
+      ],
+      "cn_spec": [
+        "平衡",
+        "野性",
+        "守护",
+        "恢复"
+      ],
+      "heroic": [
+        {
+          "name": "eluneschosen",
+          "cn_name": "艾露恩的选民",
+          "specs": ["balance", "guardian"]
+        },
+        {
+          "name": "wildstalker",
+          "cn_name": "荒野追猎者",
+          "specs": ["feral", "restoration"]
+        },
+        {
+          "name": "druidoftheclaw",
+          "cn_name": "利爪德鲁伊",
+          "specs": ["feral", "guardian"]
+        },
+        {
+          "name": "keeperofthegrove",
+          "cn_name": "丛林守护者",
+          "specs": ["balance", "restoration"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name":"demonhunter",
+      "cn_name": "恶魔猎手",
+      "spec": [
+        "havoc",
+        "vengeance"
+      ],
+      "cn_spec": [
+        "浩劫",
+        "复仇"
+      ],
+      "heroic": [
+        {
+          "name": "aldrachireaver",
+          "cn_name": "奥达奇掠夺者",
+          "specs": ["havoc", "vengeance"]
+        },
+        {
+          "name": "felscarred",
+          "cn_name": "邪痕",
+          "specs": ["vengeance", "havoc"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name":"hunter",
+      "cn_name": "猎人",
+      "spec": [
+        "beastmastery",
+        "marksmanship",
+        "survival"
+      ],
+      "cn_spec": [
+        "野兽控制",
+        "射击",
+        "生存"
+      ],
+      "heroic": [
+        {
+          "name": "darkranger",
+          "cn_name": "黑暗游侠",
+          "specs": ["beastmastery", "marksmanship"]
+        },
+        {
+          "name": "packleader",
+          "cn_name": "兽群领袖",
+          "specs": ["beastmastery", "survival"]
+        },
+        {
+          "name": "sentinel",
+          "cn_name": "哨兵",
+          "specs": ["marksmanship", "survival"]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name":"shaman",
+      "cn_name": "萨满祭司",
+      "spec": [
+        "elemental",
+        "enhancement",
+        "restoration"
+      ],
+      "cn_spec": [
+        "元素",
+        "增强",
+        "恢复"
+      ],
+      "heroic": [
+        {
+          "name": "stormbringer",
+          "cn_name": "风暴使者",
+          "specs": ["elemental", "enhancement"]
+        },
+        {
+          "name": "farseer",
+          "cn_name": "先知",
+          "specs": ["elemental", "restoration"]
+        },
+        {
+          "name": "totemic",
+          "cn_name": "图腾大师",
+          "specs": ["enhancement", "restoration"]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name":"evoker",
+      "cn_name": "唤魔师",
+      "spec": [
+        "preservation",
+        "devastation",
+        "augmentation"
+      ],
+      "cn_spec": [
+        "恩护",
+        "湮灭",
+        "增辉"
+      ],
+      "heroic": [
+        {
+          "name": "flameshaper",
+          "cn_name": "塑焰师",
+          "specs": ["preservation", "devastation"]
+        },
+        {
+          "name": "chronowarden",
+          "cn_name": "时光看守者",
+          "specs": ["preservation", "augmentation"]
+        },
+        {
+          "name": "scalecommander",
+          "cn_name": "鳞长",
+          "specs": ["devastation", "augmentation"]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name":"paladin",
+      "cn_name": "圣骑士",
+      "spec": [
+        "protection",
+        "holy",
+        "retribution"
+      ],
+      "cn_spec": [
+        "防护",
+        "神圣",
+        "惩戒"
+      ],
+      "heroic": [
+        {
+          "name": "lightsmith",
+          "cn_name": "光铸师",
+          "specs": ["protection", "holy"]
+        },
+        {
+          "name": "templar",
+          "cn_name": "圣殿骑士",
+          "specs": ["protection", "retribution"]
+        },
+        {
+          "name": "heraldofthesun",
+          "cn_name": "太阳使者",
+          "specs": ["holy", "retribution"]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name":"deathknight",
+      "cn_name": "死亡骑士",
+      "spec": [
+        "blood",
+        "frost",
+        "unholy"
+      ],
+      "cn_spec": [
+        "鲜血",
+        "冰霜",
+        "邪恶"
+      ],
+      "heroic": [
+        {
+          "name": "deathbringer",
+          "cn_name": "死亡使者",
+          "specs": ["blood", "frost"]
+        },
+        {
+          "name": "sanlayn",
+          "cn_name": "萨莱茵",
+          "specs": ["blood", "unholy"]
+        },
+        {
+          "name": "rideroftheapocalypse",
+          "cn_name": "天启骑士",
+          "specs": ["frost", "unholy"]
+        }
+      ]
+    }
+  ]
+  

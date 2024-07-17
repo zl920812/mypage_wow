@@ -1,0 +1,14 @@
+[
+  {
+      "id": 1,
+      "name": "HeroicTalent1",
+      "description": "Description of HeroicTalent1",
+      "icon": "path/to/heroic_icon1.png"
+  },
+  {
+      "id": 2,
+      "name": "HeroicTalent2",
+      "description": "Description of HeroicTalent2",
+      "icon": "path/to/heroic_icon2.png"
+  }
+]
